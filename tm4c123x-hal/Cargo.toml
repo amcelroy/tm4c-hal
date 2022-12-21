@@ -30,7 +30,7 @@ version = "1"
 
 [dependencies.tm4c123x]
 git = 'https://github.com/amcelroy/dslite2svd/'
-branch = 'updated_deps'
+branch = 'macro_registers'
 version = '0.9.1'
 
 [dependencies.void]

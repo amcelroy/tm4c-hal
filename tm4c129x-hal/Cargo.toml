@@ -20,7 +20,7 @@ nb = "1"
 
 [dependencies.tm4c129x]
 git = 'https://github.com/amcelroy/dslite2svd/'
-branch = 'updated_deps'
+branch = 'macro_registers'
 
 [dependencies.cast]
 version = "0.2"
