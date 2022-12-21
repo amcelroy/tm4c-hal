@@ -111,6 +111,11 @@ macro_rules! hal {
                     timer
                 }
 
+                /// Grab the underlying timer
+                pub fn underlying(self) -> $TIM {
+                    self.tim
+                }
+
                 /// Starts listening for an `event`
                 pub fn listen(&mut self, event: Event) {
                     match event {
