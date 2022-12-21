@@ -1,6 +1,6 @@
 [package]
 name = "tm4c-hal"
-version = "0.4.1"
+version = "0.4.2"
 authors = [
 	"Jorge Aparicio <jorge@japaric.io>",
 	"Jonathan 'theJPster' Pallant <github@thejpster.org.uk>",
@@ -16,7 +16,7 @@ repository = "https://github.com/rust-embedded-community/tm4c-hal"
 documentation = "https://docs.rs/tm4c-hal"
 
 [dependencies]
-cortex-m = "0.6"
+cortex-m = "0.7.6"
 nb = "1"
 
 [dependencies.embedded-hal]
