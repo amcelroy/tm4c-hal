@@ -29,7 +29,7 @@ features = ["unproven"]
 version = "1"
 
 [dependencies.tm4c129x]
-version = "0.9"
+version = "0.9.1"
 
 [dependencies.void]
 version = "1.0"
